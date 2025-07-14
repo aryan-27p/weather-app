@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Simple Weather App</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="weather-app">
+        <div class="weather-icons">
+            <i class="fas fa-cloud"></i>
+            <i class="fas fa-cloud-sun-rain"></i>
+            <i class="fas fa-cloud-sun"></i>
+            <i class="fas fa-cloud-showers-heavy"></i>
+        </div>
+        <h2>Weather App</h2>
+        <input type="text" id="cityInput" placeholder="Enter city name">
+        <button onclick="getWeather()">Get Weather</button>
+        <div class="weather-result" id="weatherResult"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
